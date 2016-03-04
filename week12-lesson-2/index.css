@@ -1,0 +1,22 @@
+body{
+    background: #ff0;
+}
+header {
+    text-align: center;
+    width: 1000px;
+    height: 24px;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+
+nav {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background:#00BCD4 ;
+}
+
+h3 {
+    color: #f00;
+}
