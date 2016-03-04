@@ -1,0 +1,7 @@
+ Listening on http://127.0.0.1:8080
+127.0.0.1 - GET / HTTP/1.1 200 5701 - 12.957 ms
+127.0.0.1 - GET /static/css/app_d86ec6b.css HTTP/1.1 200 6146 - 4.934 ms
+127.0.0.1 - GET /static/js/js/app_9830676.js HTTP/1.1 200 2563 - 3.636 ms
+127.0.0.1 - GET /static/images/bd_logo_fe3f773.png HTTP/1.1 200 7193 - 1.946 ms
+127.0.0.1 - GET /app_z_b5e9a1f.png HTTP/1.1 200 6719 - 0.888 ms
+127.0.0.1 - GET /favicon.ico HTTP/1.1 404 24 - 3.851 ms
