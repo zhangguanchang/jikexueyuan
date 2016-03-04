@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.input-style {
+    float: left;
+    height: 40px;
+    width: 400px;
+}
+
+.button-style {
+    float: left;
+    background-color: #E91E63;
+    height: 44px;
+    width: 100px;
+    border: 5px solid yellow;
+    cursor: pointer;
+}
