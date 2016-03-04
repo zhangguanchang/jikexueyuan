@@ -1,0 +1,478 @@
+/*<!--电脑-->*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    min-width: 750px;
+    min-height: 600px;
+    height: 100%;
+    zoom: 1;
+}
+
+body {
+    font-family: bold；
+    behavior: url(csshover.htc);
+}
+
+.header {
+    height: 32px;
+    text-align: right;
+    position: relative;
+    border: 1px solid lightgray;
+    min-width: 454px;
+}
+
+.nav {
+    font-size: 13px;
+    margin-top: 11px;
+    position: absolute;
+    right: 10px;
+}
+
+.nav a {
+    margin-left: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.nav a:link,
+.nav a:visited {
+    text-decoration: underline;
+}
+
+.nav a:active {
+    color: blue;
+}
+
+.setting {
+    list-style-type: none;
+    position: absolute;
+    z-index: 2;
+    top: 23px;
+    right: 65px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 1px #D3D3D3;
+    display: none;
+}
+
+.setting li {
+    text-align: center;
+    padding: 5px 9px;
+}
+
+.setting li:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+    color: white;
+}
+
+.setting:before {
+    content: "";
+    border: 8px solid transparent;
+    position: absolute;
+    border-bottom-color: lightgrey;
+    left: 27px;
+    top: -16px;
+}
+
+.setting:after {
+    content: "";
+    border: 6px solid transparent;
+    position: absolute;
+    border-bottom-color: white;
+    left: 29px;
+    top: -12px;
+}
+
+#moreBtn {
+    background-color: dodgerblue;
+    padding: 5px;
+    margin-left: 19px;
+    color: white;
+    cursor: default;
+}
+
+.more {
+    position: absolute;
+    z-index: 2;
+    width: 90px;
+    height: 99%;
+    list-style-type: none;
+    border: 1px solid #D3D3D3;
+    background-color: white;
+    text-align: center;
+    display: none;
+    right: 0;
+    top: -12px;
+}
+
+.more img {
+    display: block;
+    margin: 0 auto;
+}
+
+.more a:link,
+.more a:visited {
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.more a:hover {
+    text-decoration: underline;
+}
+
+.Product {
+    font-size: 13px;
+    color: #333333;
+    padding-top: 22px;
+    cursor: default;
+}
+
+.line {
+    margin: 10px auto;
+    height: 1px;
+    background-color: lightgrey;
+}
+
+.body {
+    text-align: center;
+}
+
+.img {
+    width: 270px;
+    height: 129px;
+    padding-top: 121px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space {
+    padding-top: 22px;
+    line-height: 16px;
+    height: 16px;
+    margin-bottom: 13px;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+    height: 292px;
+}
+
+#searchbox {
+    float: left;
+    padding: 9px 7px;
+    width: 521px;
+    height: 20px;
+    outline: none;
+    line-height: 20px;
+    font-size: 16px;
+    border: 1px solid #4791FF;
+    border-right-style: none;
+}
+
+#searchbutton {
+    background-color: #4791FF;
+    font-size: 15px;
+    color: white;
+    float: left;
+    border: none;
+    width: 100px;
+    height: 40px;
+    outline: none;
+}
+
+#searchbutton:hover {
+    cursor: pointer;
+    background-color: #3075DC;
+}
+
+.foot a {
+    color: #333333;
+    word-spacing: 3px;
+}
+
+.foot {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+    font-size: 12px;
+    color: #333333;
+    word-spacing: 3px;
+    min-width: 544px;
+}
+/*<!--手机-->*/
+@media only screen and (max-width:750px) {
+    .content {
+        display: none;
+        padding: 0;
+    }
+    .container {
+        display: block;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    /*<!--天气设置-->*/
+    .weather {
+        position: relative;
+        height: 54px;
+    }
+    .weather-outline {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 0 9px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .weather-outline h2,
+    .weather-outline p {
+        display: inline-block;
+    }
+    .weather-outline h2 {
+        font-size: 30px;
+        color: #818388;
+    }
+    .weather-outline img {
+        position: relative;
+        top: 2.5px;
+        width: 20px;
+        line-height: 35px;
+        margin-left: -22px;
+        text-align: left;
+    }
+    .weather-Place {
+        padding: 0 6px;
+        display: inline-block;
+    }
+    .weather-Place:before {
+        content: '';
+        position: absolute;
+        left: 83px;
+        height: 26px;
+    }
+    .weather-Place p {
+        height: 13px;
+        line-height: 13px;
+        font-size: 11px;
+        color: #7e818a;
+        display: block;
+    }
+    .weather-right {
+        position: absolute;
+        top: 3px;
+        right: 0;
+        padding: 7px;
+    }
+    .weather-right:hover {
+        cursor: pointer;
+    }
+    /*<!--搜索框设置-->*/
+    .logo-box {
+        height: 55px;
+        padding: 17px 0 15px;
+        text-align: center;
+    }
+    .logo-box img {
+        width: 175px;
+        height: 55px;
+    }
+    .form-box {
+        position: relative;
+        margin: 0 10px;
+        border: 1px solid #8d9394;
+        border-radius: 1px;
+        height: 42px;
+        box-shadow: 0 1px 1px 0 #dfdfdf;
+        background: #fff;
+    }
+    .form-box textarea {
+        border-radius: 0;
+        margin: 0;
+        padding: 7px 77px 7px 6px;
+        height: 42px;
+        line-height: 28px;
+        resize: none;
+        overflow: hidden;
+        box-sizing: border-box;
+        font-size: 18px;
+        border: 0;
+        float: left;
+        width: 100%;
+    }
+    .form-box .submit-inner {
+        width: 79px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        float: left;
+    }
+    .baidi-btn {
+        width: 79px;
+        height: 42px;
+        background: -webkit-linear-gradient(top, #f9f9f9, #e7e9eb);
+        box-shadow: 0 0 0 1px #fff inset;
+        line-height: 42px;
+        color: #46484b;
+        font-weight: 700;
+        font-size: 16px;
+        box-sizing: border-box;
+        border: 0;
+        border-left: 1px solid #8d9394;
+    }
+    /*<!--导航栏设置-->*/
+    .nav1 {
+        margin: 17px 0 24px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .nav1 a {
+        float: left;
+        width: 16%;
+        font-size: 13px;
+        color: #262626;
+        text-align: center;
+        display: block;
+    }
+    .nav1 a img {
+        display: block;
+        margin-bottom: 4px;
+        width: 24px;
+        height: 24px;
+        margin: auto;
+        margin-bottom: 4px;
+    }
+    .nav1 a:first-child {
+        margin-left: 2%;
+    }
+    /*<!--常用网址-->*/
+    .phone-card {
+        padding: 2px 10px 10px;
+        position: relative;
+    }
+    .phone-card .phone {
+        border: 1px solid #d9dde2;
+        margin-top: 8px;
+        background: #fff;
+    }
+    .phone-title {
+        position: relative;
+        margin: 2px 14px 0;
+        height: 40px;
+        text-align: left;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #aaa;
+    }
+    .phone-title img {
+        vertical-align: middle;
+    }
+    .phone-card .phone-content {
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .phone-card .phone-content a {
+        display: block;
+        float: left;
+        width: 25%;
+        padding: 0 6px;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+        box-sizing: border-box;
+        color: #262626;
+    }
+    .phone-card .phone-content a img {
+        width: 28px;
+        vertical-align: middle;
+    }
+    .phone.hotword span {
+        position: absolute;
+        right: 30px;
+    }
+    img.up-date {
+        position: absolute;
+        right: 85px;
+        width: 24px;
+        top: 8px;
+    }
+    .phone-content.hotword-content {
+        padding: 0 14px;
+    }
+    .phone-content.hotword-content a {
+        width: 50%;
+        text-align: left;
+    }
+    /*<!--底部设置-->*/
+    footer {
+        font-size: 13px;
+        padding: 20px 0;
+    }
+    footer p {
+        margin-bottom: 15px;
+    }
+    footer p a {
+        color: #555 !important;
+    }
+    .bottom-btn {
+        overflow: hidden;
+        display: block;
+        text-align: center;
+    }
+    .bottom-btn a {
+        display: inline-block;
+        padding: 6px 0;
+    }
+    .bottom-btn div {
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+    .btn-left {
+        float: left;
+    }
+    .btn-right {
+        float: right;
+    }
+    .bottom-btn a {
+        width: 95%;
+        border: 1px solid #ececec;
+    }
+    footer p.read {
+        text-align: center;
+        color: #aaa;
+        font-size: 10px;
+        padding-top: 20px;
+    }
+}
