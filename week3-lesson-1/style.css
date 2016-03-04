@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes rotate {
+    16% {
+        -webkit-transform: rotateY(-90deg);
+    }
+    33% {
+        -webkit-transform: rotateY(-90deg)rotateZ(135deg);
+    }
+    50% {
+        -webkit-transform: rotateY(225deg)rotateZ(135deg);
+    }
+    66% {
+        -webkit-transform: rotateY(135deg)rotateZ(135deg);
+    }
+    83% {
+        -webkit-transform: rotateX(135deg);
+    }
+}
+
+.container {
+    width: 150px;
+    height: 150px;
+    margin: 200px auto;
+    -webkit-perspective-origin: 75px 75px;
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin: 75px 75px 0;
+    -webkit-animation: rotate 10s infinite ease-in-out;
+}
+
+.box>div {
+    width: 150px;
+    height:150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box div div {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.frist {
+    -webkit-transform: translateZ(75px);
+}
+
+.second {
+    -webkit-transform: rotateY(-90deg) translateZ(75px);
+}
+
+.thrid {
+    -webkit-transform: rotateY(90deg) translateZ(75px);
+}
+
+.fourth {
+    -webkit-transform: rotateX(90deg) translateZ(75px);
+}
+
+.fifth {
+    -webkit-transform: translateZ(-75px);
+}
+
+.sixth {
+    -webkit-transform: rotateX(90deg) translateZ(-75px);
+}
+
+.face1 {
+    background: red;
+}
+
+.face2 {
+    background: yellow;
+}
+
+.face3 {
+    background: green;
+}
+
+.face4 {
+    background: blue;
+}
+
+.face5 {
+    background: white;
+}
+
+.face6 {
+    background: red;
+}
+
+.face7 {
+    background: yellow;
+}
+
+.face8 {
+    background:blue;
+}
+
+.face9 {
+    background: green;
+}
