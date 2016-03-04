@@ -1,0 +1,97 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: '微软雅黑';
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+
+/*修改的设置*/
+
+#modify {
+    display: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -210px;
+    top: 10%;
+    background-color: #f0ad4e;
+    width: 400px;
+    text-align: center;
+}
+
+#mdfInfo {
+    color: #f00;
+    font-weight: bold;
+}
+
+.full-width {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#modify input,
+#add input {
+    border-radius: 5px;
+}
+
+.news-content {
+    height: 200px;
+}
+
+.float-right {
+    margin-right: 10px;
+    float: right;
+}
+
+
+/*删除的设置*/
+
+#delete {
+    display: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    background-color: #38f;
+    width: 250px;
+}
+
+#delete input {
+    float: right;
+}
+
+
+/*添加的样式*/
+
+#add {
+    display: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -210px;
+    top: 10%;
+    background-color: #38f;
+    width: 400px;
+}
+
+#addBtn-face {
+    margin-top: -35px;
+}
