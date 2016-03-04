@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dazhuzai {
+    margin: 50px;
+    -webkit-column-count: 4;
+    -webkit-column-rule-style: dotted;
+    -moz-column-count: 4;
+    -moz-column-rule-style: dotted;
+}
+
+.center {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center img {
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, .6);
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px 0 0 100px;
+}
+
+.shoe {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box1 {
+    position: relative;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    top: -120px;
+    background-color: red;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, .6);
+    left: 1000px;
+
+}
+
+.shoe1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.con {
+    display: -webkit-flex;
+    width: 600px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frist {
+    height: 100px;
+    background-color: orange;
+    -webkit-flex: 1;
+    -webkit-order: 3;
+}
+
+.second {
+    height: 100px;
+    background-color: blue;
+    -webkit-flex: 1;
+    -webkit-order: 1;
+}
+
+.three {
+    height: 200px;
+    background-color: aquamarine;
+    -webkit-flex: 1;
+    -webkit-order: 2;
+}
+
+.con1 {
+    display: -webkit-flex;
+    width: 600px;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frist1 {
+    height: 100px;
+    background-color: orange;
+    -webkit-flex: 1;
+}
+
+.second1 {
+    height: 100px;
+    background-color: blue;
+    -webkit-flex: 1;
+}
+
+.three1 {
+    height: 200px;
+    background-color: aquamarine;
+    -webkit-flex: 1;
+}
+
+.con2 {
+    display: -webkit-flex;
+    width: 600px;
+    background-color: green;
+    -webkit-flex-direction: column;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.frist2 {
+    height: 100px;
+    background-color: orange;
+    -webkit-flex: 1;
+    -webkit-flex-direction: column;
+}
+
+.second2 {
+    height: 100px;
+    background-color: blue;
+    -webkit-flex: 1;
+}
+
+.three2 {
+    height: 200px;
+    background-color: aquamarine;
+    -webkit-flex: 1;
+}
