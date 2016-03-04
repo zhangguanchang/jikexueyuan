@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: green;
+}
+
+.wrapper {
+    min-width: 1000px;
+}
+
+
+/*头部设置
+*/
+
+header {
+    margin-top: 15px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #cacaca;
+}
+
+header h4 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #fff;
+}
+
+
+/*相关管理设置*/
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.option {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: #c7c7c7;
+}
+
+.selected {
+    border: 1px solid #c7c7c7;
+    border-right: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.option:hover {
+    border: 1px solid #cacaca;
+    border-right: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+
+/*新闻添加设置*/
+
+.right {
+    width: 80%;
+    padding: 10px;
+    border-left: 1px solid #cacaca;
+    float: right;
+}
+
+.showcase {
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-info {
+    margin-left: 40%;
+}
+
+.newsdate {
+    width: auto;
+}
+
+
+/*数据列表设置*/
+
+.tablecontainer {
+    background-color: #eeeeee;
+}
+
+#tablelist {
+    table-layout: fixed;
+}
+
+#tablelist th,
+#tablelist td {
+    text-align: center;
+    vertical-align: middle;
+    width: 14.2857%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/*底部设置*/
+
+footer {
+    border-top: 1px solid #cacaca;
+    clear: both;
+}
+
+footer p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
