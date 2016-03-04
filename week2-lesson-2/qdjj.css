@@ -1,0 +1,100 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    body {
+        background: lightblue;
+    }
+    
+    .con {
+        width: 640px;
+        margin: 0 auto;
+        border: 1px solid grey;
+        border-radius: 20px;
+        padding: 35px;
+        margin-top: 10px;
+        background: white;
+        color: black;
+    }
+    
+    .con a {
+        text-decoration: none;
+        color: red;
+    }
+    
+    .con a img {
+        margin-top:-30px;
+        position: relative;
+    }
+    
+    table.head caption {
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        margin-top: 30px;
+    }
+    
+    .title1 {
+        font-size: 13px;
+        color: blue;
+        padding-left: 13px;
+        font-weight: bold
+    }
+    
+    .label1 {
+        width: 136px;
+        text-align: right;
+        color: black;
+    }
+    
+    .label1 span {
+        color: red;
+    }
+    
+    input[type=text] {
+        width: 240px;
+    }
+    
+    .blue-text {
+        color: blue;
+    }
+    
+    .red-text {
+        color: red;
+    }
+    
+    table {
+        border-collapse: collapse;
+    }
+    
+    input[type=submit] {
+        padding: 2px 28px;
+    }
+    
+    .table-bottom {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    a:link {
+        color: #333333;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: #333333;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #CC0000;
+        text-decoration: none;
+    }
+    
+    #tijiao {
+        padding-top: 41px;
+        padding-bottom: 41px;
+    }
