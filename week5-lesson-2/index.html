@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简单计算器</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container ">
+        <form>
+            <!--输入框1-->
+            <input type="text" id="first" class="input-style" />
+            <!--算法-->
+            <select id="Algorithm">
+                <option value="Add">+</option>
+                <option value="Subtract">-</option>
+                <option value="Multiply">*</option>
+                <option value="Divide">/</option>
+            </select>
+            <!--输入框2-->
+            <input type="text" id="second" class="input-style" />
+            <!--结果-->
+            <button type="button" class="button-style" onclick="cal()">=</button>
+            <!--输入框3-->
+            <input type="text" id="result" class="input-style" />
+        </form>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
