@@ -5,7 +5,7 @@
 * [开发基础百度首页](https://github.com/zhangguanchang/jikexueyuan/tree/master/week1-lesson-1)
 * [开发课程表](https://github.com/zhangguanchang/jikexueyuan/tree/master/week1-lesson-2)
 
-* ### 第二周
+### 第二周
 * [制作一个由5个100*100DIV组成的十字架](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-1)
 * [制作青岛家教网注册页面](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-2)
 * [让百度首页样式完全与官网样式完全一致](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-3)
