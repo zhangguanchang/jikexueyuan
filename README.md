@@ -44,7 +44,7 @@
 * [开发Nodejs版本的百度新闻系统](https://github.com/zhangguanchang/jikexueyuan/tree/master/week9-lesson-1)
 
 ### 第十周
-* [开发手机10本的百度新闻](1ttps://github.com/zhangguanchang/jikexueyuan/tree/master/week10-lesson-1)
+* [开发手机10本的百度新闻](https://github.com/zhangguanchang/jikexueyuan/tree/master/week10-lesson-1)
 
 ### 第十一周
 * [利用less或者sass改善极客学院CSS](https://github.com/zhangguanchang/jikexueyuan/tree/master/week11-lesson-1)
