@@ -12,7 +12,7 @@
 * [实战盒子模型与弹性盒模型](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-4)
 
 ### 第三周
-* [CSS开发3D魔方效果]((https://github.com/zhangguanchang/jikexueyuan/tree/master/week3-lesson-1)
+* [CSS开发3D魔方效果](https://github.com/zhangguanchang/jikexueyuan/tree/master/week3-lesson-1)
 * [CSS开发简笔画并让简笔画像动画片一样动起来](https://github.com/zhangguanchang/jikexueyuan/tree/master/week3-lesson-2)
 * [让百度首页适配IE等所有浏览器](https://github.com/zhangguanchang/jikexueyuan/tree/master/week3-lesson-3)
 * [理解并完成双飞翼布局](https://github.com/zhangguanchang/jikexueyuan/tree/master/week3-lesson-4)
