@@ -1,14 +1,16 @@
 # jikexueyuan
 这里是张关昌的就业班作业
+
 ### 第一周
 * [开发基础百度首页](https://github.com/zhangguanchang/jikexueyuan/tree/master/week1-lesson-1)
 * [开发课程表](https://github.com/zhangguanchang/jikexueyuan/tree/master/week1-lesson-2)
+
 * ### 第二周
 * [制作一个由5个100*100DIV组成的十字架](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-1)
 * [制作青岛家教网注册页面](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-2)
 * [让百度首页样式完全与官网样式完全一致](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-3)
 * [实战盒子模型与弹性盒模型](https://github.com/zhangguanchang/jikexueyuan/tree/master/week2-lesson-4)
-(https://github.com/zhouderao/JiKeXueYuan/tree/master/Week03/Lesson3_3
+
 ### 第三周
 * [CSS开发3D魔方效果]((https://github.com/zhangguanchang/jikexueyuan/tree/master/week3-lesson-1)
 * [CSS开发简笔画并让简笔画像动画片一样动起来](https://github.com/zhangguanchang/jikexueyuan/tree/master/week3-lesson-2)
