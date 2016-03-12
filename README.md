@@ -53,3 +53,4 @@
 ### 第十二周
 * [用设计模式改善百度js代码](https://github.com/zhangguanchang/jikexueyuan/tree/master/week12-lesson-1)
 * [总结高级前端开发工程师面试题和思维脑图](https://github.com/zhangguanchang/jikexueyuan/tree/master/week12-lesson-2)
+* ![image](https://github.com/zhangguanchang/week9/blob/master/lesson-1/public/images/manage/1.jpg)
